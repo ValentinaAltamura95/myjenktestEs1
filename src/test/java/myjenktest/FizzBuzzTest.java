@@ -18,6 +18,6 @@ public class FizzBuzzTest {
        public void testNumber () {
     	   String risultato=fb.play(1);
     	   //Verifica risultato ottenuto, risultato pianificato - True o False
-    	   Assertions.assertEquals(risultato, "1");
+    	   Assertions.assertEquals(risultato, "ciao");
        }
 }
